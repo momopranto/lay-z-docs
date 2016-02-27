@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import json
+import json, string
 
 # language: [definition style, comment style]
 P_LANG = {
