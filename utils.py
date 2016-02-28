@@ -1,10 +1,10 @@
 #import argparse
 import string, json
-import package
+from package import Package
 
 
 def ext_of(name):
-    return src.split('.')[len(src.split('.'))-1]
+    return name.split('.')[len(name.split('.'))-1]
 
 def LANG_ERROR(src):
     print 'Error: ' + src + ' is invalid or uses a language that is currently unsupported.'
@@ -21,6 +21,7 @@ def scan_py_dec(src):
         return Package('Python', data)
 
 def scan_c_dec(src):
-
+    return None
 
 def scan_js_dec(src):
+    return None
