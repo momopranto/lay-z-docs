@@ -1,0 +1,46 @@
+{
+  'functions':[
+    {
+      'name': name,
+      'return-type': None,
+      'args': [
+        {
+          'arg-name': 'x',
+          'type': 'int'
+        },
+        {
+          'arg-name': 'y',
+          'type': 'string'
+        }
+      ]
+    },
+    {
+      'name': name,
+      'return-type': None,
+      'args': [
+        {
+          'arg-name': 'x',
+          'type': 'int'
+        },
+        {
+          'arg-name': 'y',
+          'type': 'string'
+        }
+      ]
+    },
+    {
+      'name': name,
+      'return-type': None,
+      'args': [
+        {
+          'arg-name': 'x',
+          'type': 'int'
+        },
+        {
+          'arg-name': 'y',
+          'type': 'string'
+        }
+      ]
+    },
+  ]
+}
