@@ -1,0 +1,68 @@
+{
+    "functions": [
+        {
+            "args": [
+                {
+                    "default": null,
+                    "name": "x",
+                    "type": null
+                },
+                {
+                    "default": null,
+                    "name": "y",
+                    "type": null
+                }
+            ],
+            "name": "add",
+            "return-type": null
+        },
+        {
+            "args": [
+                {
+                    "default": null,
+                    "name": "x",
+                    "type": null
+                },
+                {
+                    "default": null,
+                    "name": "y",
+                    "type": null
+                }
+            ],
+            "name": "sub",
+            "return-type": null
+        },
+        {
+            "args": [
+                {
+                    "default": null,
+                    "name": "x",
+                    "type": null
+                },
+                {
+                    "default": null,
+                    "name": "y",
+                    "type": null
+                }
+            ],
+            "name": "mult",
+            "return-type": null
+        },
+        {
+            "args": [
+                {
+                    "default": null,
+                    "name": "x",
+                    "type": null
+                },
+                {
+                    "default": null,
+                    "name": "y",
+                    "type": null
+                }
+            ],
+            "name": "div",
+            "return-type": null
+        }
+    ]
+}
