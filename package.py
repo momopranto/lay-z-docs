@@ -5,6 +5,7 @@ class Package:
         self.language = None
         self.data = None
 
-    def __init__(self,lang, json_data):
+    def __init__(self,lang, json_data, filename):
         self.language = lang
         self.data = json_data
+        self.name = filename

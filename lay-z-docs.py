@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#import argparse
 import json, string, sys
 import utils, package
 
@@ -17,5 +18,5 @@ if len(sys.argv) > 1:
         else:
             LANG_ERROR(src)
     if pkg:
-        with open('output2.json','w') as f:
+        with open(pkg.name + '-output.json','w') as f:
             f.write(json.dumps(pkg.data, sort_keys=True, indent=4, separators=(',', ': ')))
